@@ -33,7 +33,7 @@ export function uriToPackageName(packageUri: string) {
 }
 
 export function getBaseUrl() {
-  var baseUrl = self.pyodideArtifactsUrl || self.languagePluginUrl  || 'https://cdn.quantcoin.co/pyodide/v0.15.0/full/';
+  var baseUrl = self.pyodideArtifactsUrl || self.languagePluginUrl  || 'https://cdn.quantcoin.io/pyodide/v0.15.0/full/';
   baseUrl = baseUrl.substr(0, baseUrl.lastIndexOf('/')) + '/';
   return baseUrl;
 }

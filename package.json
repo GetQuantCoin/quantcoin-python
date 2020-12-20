@@ -1,6 +1,6 @@
 {
   "name": "quantcoin-pyodide",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Quantcoin.co Python cells for Starboard Notebook",
   "main": "dist/index.js",
   "module": "dist/index.js",
